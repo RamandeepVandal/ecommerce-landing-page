@@ -1,4 +1,4 @@
-### E-commerce Landing Page Project
+# E-commerce Landing Page Project
 This is a front-end project that features an e-commerce landing page and product page. The project is built using React and Bootstrap.
 
 ## Getting Started
