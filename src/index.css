@@ -1,0 +1,127 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+/* HERO SECTION -> HOMEPAGE.JSX */
+.hero-section {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./screens/img/hero-img.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  color: white;
+}
+
+.hero h1{
+  font-size: 80px;
+}
+
+.hero p {
+  margin: 0;
+  font-size: 20px;
+}
+
+/* PRODUCT SECTION -> HOMEPAGE.JSX */
+.product-section {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('./screens/img/product-img.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+  color: white;
+}
+
+.product-box-section {
+  text-align: center;
+}
+
+.product-box-section h1 {
+  font-size: 60px;
+}
+
+.product-box-section p {
+  font-size: 30px;
+}
+
+.card-boxes {
+  text-align: center;
+  width: 18em;
+  color: black;
+}
+
+.card {
+  background: none;
+  border: none;
+}
+
+/* BRAND SECTION -> HOMEPAGE.JSX */
+.brand-section img {
+  height: 125px;
+  width: 150px;
+}
+
+/* PROMOTION SECTION -> HOMEPAGE.JSX */
+.promotion-section {
+  background: #5bc0de;
+}
+
+.promotion img {
+  height: 400px; 
+  width: 400px;
+}
+
+/* CONTACT SECTION -> CONTACT.JSX */
+.contact-section {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./screens/img/hero-img.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+  color: white;
+}
+
+/* FOOTER SECTION -> FOOTER.JSX */
+.contact-links a {
+  text-decoration: none;
+  color: black;
+
+  transition: 0.15s ease all;
+}
+
+.contact-links a:hover {
+  color: #5bc0de;
+}
+
+/* PRODUCT PAGE -> PRODUCTSPAGE.JSX */
+.product-page {
+  background: rgba(0, 0, 0, 0.8);
+  height: 100vh;
+}
+
+.product-page-section img{
+  height: 450px;
+  width: 450px;
+  border-radius: 5em;
+}
+
+.product-info {
+  color: white;
+}
+
+.discount-tag {
+  background-color: #555;
+  border-radius: 10px;
+}
+
+.quantity-prod h2{
+  padding: 10px;
+  background-color: #f7f7f7;
+  color: black;
+  font-weight: bold;
+}
+
+.quantity-prod button{
+  border-radius: 0;
+  padding-left: 25px;
+  padding-right: 25px;
+  font-weight: bold;
+}
